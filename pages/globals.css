@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200;400;500;600;700&display=swap");
+
+/* **************** */
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Animation */
+.imageAnimation {
+  animation: upDown 4s infinite;
+  /* animation-delay: 1s; */
+  /* animation-timing-function: ease-in-out; */
+  animation-timing-function: linear;
+}
+
+@keyframes upDown {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: 100px;
+  }
+
+  /* 0% {
+    top: 0px;
+  } */
+}
+
+.project-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.seo-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+.czur-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.overview-title {
+  font-family: "Montagu Slab";
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 100px; */
+}
+
+.czur-details-title {
+  font-family: "Montagu Slab", serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+
+.czur-details-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43px;
+}
+
+.view-next-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-spin {
+  animation: logoSpin 4s linear infinite;
+  /* background-color: red;
+  transform: rotate(45deg); */
+}
+/* .logo-spin:hover {
+  animation: logoSpin 1s linear infinite;
+} */
+
+.workTitle {
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes logoSpin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

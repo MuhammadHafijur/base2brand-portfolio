@@ -1,0 +1,22 @@
+.logo {
+  animation: logoSpin 4s linear infinite;
+  /* background-color: red;
+  transform: rotate(45deg); */
+}
+
+.workTitle {
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes logoSpin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

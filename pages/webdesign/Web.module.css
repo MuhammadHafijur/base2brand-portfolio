@@ -1,0 +1,41 @@
+.bgWrap {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.bgText {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  padding-top: 40vh;
+  text-shadow: 1px 1px 1px #3c5c5e;
+}
+.webfont {
+  color: #0dffb6;
+}
+
+/* Animation */
+.imageAnimation {
+  animation: upDown 4s infinite;
+  /* animation-delay: 1s; */
+  /* animation-timing-function: ease-in-out; */
+  animation-timing-function: linear;
+}
+
+@keyframes upDown {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: 100px;
+  }
+
+  /* 0% {
+    top: 0px;
+  } */
+}
