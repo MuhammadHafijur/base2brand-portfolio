@@ -15,7 +15,7 @@ import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import Animation from "../animation";
+import Animation from "../anim";
 // import Animation from "../animation/index.js";
 // import Animation from "../animation/index.js";
 import Marketing from "../marketing";
