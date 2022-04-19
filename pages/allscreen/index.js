@@ -89,29 +89,3 @@ const Screen = () => {
 };
 
 export default Screen;
-
-/* <Swiper
-        // install Swiper modules
-        modules={[Navigation, Pagination, Autoplay, A11y]}
-        spaceBetween={50}
-        slidesPerView={1}
-        autoplay={{ delay: 4000 }}
-        navigation
-        pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
-      >
-        <SwiperSlide>
-          <Marketing />
-        </SwiperSlide>
-        <SwiperSlide>
-          <WebDesign />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Ux />
-        </SwiperSlide>
-        <SwiperSlide>{/* <Animation /> */
-// }
-//   </SwiperSlide>
-// </Swiper> */}
