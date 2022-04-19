@@ -1,6 +1,6 @@
 import React from "react";
 import Meta from "../Components/Meta";
-import Homepage from "./Homepage";
+import Homepage from "./homepage";
 
 const Home = () => {
   return (
