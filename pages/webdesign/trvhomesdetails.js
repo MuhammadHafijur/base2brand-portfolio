@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import logoAndAlternateOne from "./logoandalternateone.png";
 import logoAndAlternateTwo from "./logoandalternatetwo.png";
@@ -24,6 +25,32 @@ const TrvHomesDetails = () => {
           objectFit="cover"
         />
       </div>
+      <div className="w-full absolute top-0 flex justify-center items-center mt-2 md:mt-4">
+        <div className="w-[93%] text-[12px] lg:text-[20px] font-poppins flex items-center text-white">
+          <Link href="/webdesign/webdesigncasestudy">
+            <a>
+              <h1 className="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 lg:h-6 lg:w-6 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                  />
+                </svg>{" "}
+                BACK TO HOME
+              </h1>
+            </a>
+          </Link>
+          <h1 className="ml-auto">ABOUT</h1>
+        </div>
+      </div>
       {/* Down Arrow */}
       <div className="w-8 h-8 mx-auto mt-12 animate animate-bounce flex justify-center items-center bg-gray-800 rounded-full text-white ">
         <svg
@@ -41,14 +68,16 @@ const TrvHomesDetails = () => {
           />
         </svg>
       </div>
-      <div className="w-[93%] mx-auto mt-12 ">
-        <h1>ABOUT THE PROJECT</h1>
-        <div className="flex flex-col md:flex-row items-center gap-x-16">
+      <div className="w-[93%] mx-auto mt-12 border-r-[10px] xl:border-r-[30px] border-black">
+        <h1 className="text-[20px] text-[#646464] font-poppins">
+          ABOUT THE PROJECT
+        </h1>
+        <div className="flex flex-col md:flex-row md:items-center gap-x-16">
           <div className="md:w-3/4 ">
             <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              Overview Of The Project <br /> And Challenges
+              An Overview Of The Project <br /> And Challenges
             </h1>
-            <div className="text-[20px] 2xl:text-[24px]">
+            <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
               <p className="mb-4">
                 TRV Homes&apos; website was an exciting and challenging project
                 for our web development and design teams. The client wanted us
@@ -116,9 +145,9 @@ const TrvHomesDetails = () => {
           <h1 className="text-[#004681] text-[16px] 2xl:text-[24px] font-montserrat font-bold mb-4">
             TYPOGRAPHY
           </h1>
-          <div className="text-[40px] 2xl:text-[78px]">
+          <div className="text-[30px] md:text-[40px] 2xl:text-[78px]">
             <h1 className="font-bold">Open Sans 123</h1>
-            <h1>Open Sans 123</h1>
+            <h1 className="">Open Sans 123</h1>
           </div>
         </div>
         <div className="w-1/3">
@@ -138,7 +167,7 @@ const TrvHomesDetails = () => {
         </div>
       </div>
       {/* Unutrients */}
-      <div className="w-[95%] mx-auto my-32">
+      <div className="mt-24">
         <Image
           alt="trvHomesOverlay"
           src={trvHomesOverlay}
@@ -146,27 +175,31 @@ const TrvHomesDetails = () => {
         />
       </div>
       {/* Logo and Alternate */}
-      <div className="w-[95%] mx-auto bg-[#F1F8FF]">
-        <h1>Logo & Alternates</h1>
-        <div className="flex justify-between items-center">
-          <div className="w-1/3">
-            <Image
-              alt="logoAndAlternateOne"
-              src={logoAndAlternateOne}
-              layout="responsive"
-            />
-          </div>
-          <div className="w-1/3">
-            <Image
-              alt="logoAndAlternateTwo"
-              src={logoAndAlternateTwo}
-              layout="responsive"
-            />
+      <div className="bg-[#F1F8FF]">
+        <div className="w-[95%] mx-auto ">
+          <h1 className="text-[#004681] pt-8 px-4 lg:p-8 text-[12px] sm:text-[20px] xl:text-[40px] 2xl:text-[45px] font-bold font-nanummy">
+            Logo & Alternates
+          </h1>
+          <div className="flex justify-between items-center">
+            <div className="w-1/3">
+              <Image
+                alt="logoAndAlternateOne"
+                src={logoAndAlternateOne}
+                layout="responsive"
+              />
+            </div>
+            <div className="w-1/3">
+              <Image
+                alt="logoAndAlternateTwo"
+                src={logoAndAlternateTwo}
+                layout="responsive"
+              />
+            </div>
           </div>
         </div>
       </div>
       {/* typographyImg */}
-      <div className="mt-16">
+      <div className="">
         <Image alt="typographyImg" src={typographyImg} layout="responsive" />
       </div>
       {/* trvHomesConcept */}
@@ -177,11 +210,13 @@ const TrvHomesDetails = () => {
           layout="responsive"
         />
       </div>
-      {/* LSigntaure Colours */}
+      {/* Signature Colours */}
       <div className="bg-[#F1F8FF]">
-        <div className="w-[95%] mt-8 mx-auto ">
-          <h1 className="my-12">Signtaure Colours</h1>
-          <div className="grid grid-cols-3 gap-8">
+        <div className="w-[95%] pb-8 mx-auto ">
+          <h1 className="text-[#004681] py-8 px-4 lg:p-8 text-[12px] sm:text-[20px] xl:text-[40px] 2xl:text-[45px] font-bold font-nanummy ">
+            Signature Colours
+          </h1>
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="">
               <div className="py-8 bg-[#AAC5E4]"></div>
               <div className="py-8 bg-[#57779C]"></div>
@@ -202,29 +237,35 @@ const TrvHomesDetails = () => {
       </div>
 
       {/* The Pouch */}
-      <div className=" mx-auto my-16">
-        <Image alt="trvLandingPage" src={trvLandingPage} layout="responsive" />
-      </div>
-      <div className="w-4/5 my-16">
-        <Image alt="trvLot" src={trvLot} layout="responsive" />
-      </div>
-      <div className="w-2/3 ml-auto my-16">
-        <Image
-          alt="propertiesListedImg"
-          src={propertiesListedImg}
-          layout="responsive"
-        />
-      </div>
-      <div className="w-4/5 my-16">
-        <Image
-          alt="trvSelectionBooklet"
-          src={trvSelectionBooklet}
-          layout="responsive"
-        />
+      <div className="bg-[#F1F8FF] ">
+        <div className="mx-auto">
+          <Image
+            alt="trvLandingPage"
+            src={trvLandingPage}
+            layout="responsive"
+          />
+        </div>
+        <div className="w-4/5 py-12">
+          <Image alt="trvLot" src={trvLot} layout="responsive" />
+        </div>
+        <div className="w-2/3 ml-auto">
+          <Image
+            alt="propertiesListedImg"
+            src={propertiesListedImg}
+            layout="responsive"
+          />
+        </div>
+        <div className="w-4/5 py-12">
+          <Image
+            alt="trvSelectionBooklet"
+            src={trvSelectionBooklet}
+            layout="responsive"
+          />
+        </div>
       </div>
       {/* Plants */}
-      <div className="">
-        <h1 className="text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
+      <div className="bg-[#F1F8FF] ">
+        <h1 className="text-[30px] lg:text-[45px] text-[#253E5B] mb-12 font-poppins font-bold text-center view-next-title">
           View Next Project
         </h1>
         <div className=" ">

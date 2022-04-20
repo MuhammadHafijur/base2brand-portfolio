@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import plantImg from "./plantImg.jpg";
 import simplerSupplement from "./simplersupplement.jpg";
@@ -8,7 +9,7 @@ import unutrientsBanner from "./unutirentsbanner.png";
 
 const UnutrientsDetails = () => {
   return (
-    <div>
+    <div className="#F7F7F7">
       {/* Banner */}
       <div className="static">
         <Image
@@ -19,14 +20,61 @@ const UnutrientsDetails = () => {
         />
       </div>
 
+      <div className="w-full absolute top-0 flex justify-center items-center mt-2 md:mt-4">
+        <div className="w-[93%] text-[12px] lg:text-[20px] font-poppins flex items-center text-white">
+          <Link href="/webdesign/webdesigncasestudy">
+            <a>
+              <h1 className="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 lg:h-6 lg:w-6 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                  />
+                </svg>{" "}
+                BACK TO HOME
+              </h1>
+            </a>
+          </Link>
+          <h1 className="ml-auto">ABOUT</h1>
+        </div>
+      </div>
+
+      {/* Down Arrow */}
+      <div className="w-8 h-8 mx-auto mt-12 animate animate-bounce flex justify-center items-center bg-gray-800 rounded-full text-white ">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+          />
+        </svg>
+      </div>
+
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1>ABOUT THE PROJECT</h1>
+        <h1 className="text-[20px] text-[#646464] font-poppins">
+          ABOUT THE PROJECT
+        </h1>
         <div className="flex flex-col md:flex-row items-center gap-x-16">
           <div className="md:w-3/4 ">
             <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
               Overview Of The Project <br /> And Challenges
             </h1>
-            <div className="text-[20px] 2xl:text-[24px]">
+            <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
               <p className="mb-4">
                 Our first step in meeting U Nutrients&apos; needs was creating a
                 site that spoke to their brand from the very beginning. We
@@ -93,7 +141,7 @@ const UnutrientsDetails = () => {
           <h1 className="text-[#004681] text-[16px] 2xl:text-[24px] font-montserrat font-bold mb-4">
             TYPOGRAPHY
           </h1>
-          <div className="text-[40px] 2xl:text-[78px]">
+          <div className="text-[30px] md:text-[40px] 2xl:text-[78px]">
             <h1 className="font-bold">Open Sans 123</h1>
             <h1>Open Sans 123</h1>
           </div>
@@ -116,12 +164,19 @@ const UnutrientsDetails = () => {
       </div>
 
       {/* Unutrients */}
-      <div className="w-[95%] mx-auto my-32">
+      <div className="w-[95%] overflow-hidden rounded-[30px] mx-auto my-16 lg:my-32">
         <Image alt="Unutrients" src={simplerSupplement} layout="responsive" />
       </div>
       {/* The pouch vertical */}
-      <div className="w-[95%] mx-auto my-16">
-        <Image alt="czur" src={thePouchVetical} layout="responsive" />
+      <div className="w-[95%] mx-auto my-8 lg:my-16">
+        <div className="overflow-hidden rounded-[30px] ">
+          <Image
+            alt="czur"
+            src={thePouchVetical}
+            layout="responsive"
+            objectFit="cover"
+          />
+        </div>
       </div>
       {/* The Pouch */}
       <div className=" mx-auto my-16">
