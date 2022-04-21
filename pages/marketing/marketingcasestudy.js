@@ -25,7 +25,7 @@ const MarketingCaseStudy = () => {
     rewind: true,
     rewindSpeed: 2000,
     speed: 2000,
-    interval: 2000,
+    interval: 3000,
     // width : 800,
     // gap   : '1rem',
     arrows: false,

@@ -1,61 +1,63 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import circle from "./circle.png";
 import logo from "./logo.png";
 import uxgif from "./ux.gif";
-import workContact from "./work-contact.png";
 
 const Ux = () => {
   return (
-    <div>
-      <div className="overlay bg-gray-800 relative overflow-hidden w-screen h-screen">
-        <header className="text-gray-600 relative z-10 body-font">
-          <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <div className=" bg-[#000000de] relative overflow-hidden w-screen h-screen">
+      <header className=" text-gray-600 relative z-10 body-font">
+        <div className="container mx-auto flex justify-between p-5 items-center">
+          <Link href="/">
+            <a className="flex logo-spin title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
               <Image src={logo} alt="Picture of the logo" />
             </a>
+          </Link>
 
-            <button className="md:ml-auto flex flex-wrap items-center text-base justify-center border-0 py-1 px-3 focus:outline-none rounded  mt-4 md:mt-0">
-              <div className="w-32">
-                <Image
-                  src={workContact}
-                  alt="Picture of the work contact logo"
-                />
-              </div>
-            </button>
-          </div>
-        </header>
-        <div className="container">
+          <button className="md:ml-auto flex flex-wrap items-center text-base justify-center border-0 py-1 px-3 focus:outline-none rounded  mt-4 md:mt-0">
+            <div className="w-32">
+              {/* <Image src={workContact} alt="Picture of the work contact logo" /> */}
+              <Link href="/allscreen">
+                <a className="text-right w-[138px] h-[70px] text-white font-bold text-medium lg:text-2xl">
+                  {/* <br /> */}
+                  <h1 className="font-montserrat">Work</h1>
+                  <h1 className="font-montserrat">Contact</h1>
+                </a>
+              </Link>
+            </div>
+          </button>
+        </div>
+      </header>
+      <div className="mix-blend-overlay">
+        <Image
+          src={uxgif}
+          alt="Picture of the banner"
+          width={70}
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
+      <div className="absolute grid top-0 min-h-full w-screen ">
+        <div className="m-auto logo-spin w-[100%] lg:w-[50%] ">
           <Image
-            src={uxgif}
+            // width={800}
+            // height={800}
+            layout="responsive"
+            src={circle}
             alt="Picture of the banner"
-            layout="fill"
-            objectFit="cover"
-            // quality={100}
           />
         </div>
-        <div className="inset-0 bg-black opacity-25 absolute"></div>
-        <div className="container mx-auto px-6 md:px-12 relative z-10 flex items-center ">
-          <div className="w-full font-mono flex flex-col items-center relative z-10">
-            <Image
-              width={400}
-              height={400}
-              src={circle}
-              alt="Picture of the banner"
-            />
-            <h1
-              style={{ color: "#06C3B8" }}
-              className="font-extrabold absolute top-32 bottom-0 align-center  text-7xl text-center web-font leading-tight mt-4"
-            >
-              UX/UI
-            </h1>
-            <button className="absolute top-[250px] bg-yellow-500 px-12 py-2">
+        <div className="absolute inset-0 top-[35%] text-center">
+          <h1 className="font-extrabold text-[40px] md:text-[80px] lg:text-[110px] xl:text-[140px] 2xl:text-[173px] text-center text-[#0DFFB6] leading-tight">
+            UX/UI
+          </h1>
+          <Link href="/webdesign/webdesigncasestudy" passHref>
+            <button className=" bg-[#E4602D] text-white mt-4 px-12 py-2">
               EXPLORE
             </button>
-            <p className="font-extrabold  text-8xl my-44 text-white animate-bounce">
-              404
-            </p>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
