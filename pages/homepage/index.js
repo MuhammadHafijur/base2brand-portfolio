@@ -9,7 +9,7 @@ import rotateYellow from "./rotate-yellow.png";
 
 const Homepage = () => {
   return (
-    <div className="">
+    <div className="bg-[#DF5726]">
       <div className="">
         <div className="z-20 w-full h-full relative">
           <div className="flex items-center absolute z-30 justify-between w-[89%] m-auto left-0 right-0 top-[4%]">
@@ -42,7 +42,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="w-[89%] mx-auto">
-          <div className="absolute z-40 top-[30%]">
+          <div className="absolute z-40 top-[20%]">
             <div className="">
               {/* <Image
                 src={heroContent}
