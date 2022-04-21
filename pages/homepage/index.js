@@ -50,7 +50,7 @@ const Homepage = () => {
                 width={600}
                 alt="Picture of the banner"
               /> */}
-              <h1 className="font-montserrat -mt-4 font-bold text-medium md:text-5xl 2xl:text-7xl">
+              <h1 className="font-montserrat -mt-4 font-bold text-medium md:text-5xl lg:text-[86px] 2xl:text-[126px]">
                 WE DESIGN <br /> DIGITAL <br /> PRODUCTS
               </h1>
 
