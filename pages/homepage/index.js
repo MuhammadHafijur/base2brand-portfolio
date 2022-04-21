@@ -42,7 +42,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="w-[89%] mx-auto">
-          <div className="absolute z-40 top-[20%]">
+          <div className="absolute z-40 top-[20%] md:top-[35%]">
             <div className="">
               {/* <Image
                 src={heroContent}
@@ -66,12 +66,13 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-          <div className="right-[6%] left-[50%] absolute  top-[6%] lg:top-[15%]">
-            <div className="relative z-0">
+          <div className="right-[6%] left-[50%] absolute top-[6%] lg:top-[15%] 2xl:left-[50%] 2xl:top-[20%]">
+            <div className="relative z-0 w-[100%]">
               <Image
                 src={heroGif}
-                height={400}
-                width={600}
+                // height={400}
+                // width={600}
+                layout="responsive"
                 alt="Picture of the banner"
               />
             </div>

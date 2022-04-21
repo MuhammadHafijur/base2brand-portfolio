@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import czurAnalytics from "./czuranalytics.png";
 import czurBanner from "./czurbanner.png";
@@ -17,44 +18,63 @@ const CzurDetails = () => {
           layout="responsive"
           objectFit="cover"
         />
-        {/* Navbar */}
-        {/* <header className="text-gray-600 body-font">
-          <div className="flex flex-wrap py-5 flex-col md:flex-row items-center">
-            <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M10 19l-7-7m0 0l7-7m-7 7h18"
-                />
-              </svg>
-              <span className=" text-[20px] text-[#0B0B0B] font-[500]">
-                BACK TO HOME
-              </span>
-            </a>
+      </div>
 
-            <button className="flex md:ml-auto items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-              ABOUT
-            </button>
-          </div>
-        </header> */}
+      <div className="w-full absolute top-0 flex justify-center items-center mt-2 md:mt-4">
+        <div className="w-[93%] text-[12px] lg:text-[20px] font-semibold font-poppins flex items-center text-black">
+          <Link href="/webdesign/webdesigncasestudy">
+            <a>
+              <h1 className="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 lg:h-6 lg:w-6 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                  />
+                </svg>{" "}
+                BACK TO HOME
+              </h1>
+            </a>
+          </Link>
+          <h1 className="ml-auto">ABOUT</h1>
+        </div>
+      </div>
+
+      {/* Down Arrow */}
+      <div className="w-8 h-8 mx-auto mt-12 animate animate-bounce flex justify-center items-center bg-gray-800 rounded-full text-white ">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+          />
+        </svg>
       </div>
 
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1>ABOUT THE PROJECT</h1>
-        <div className="flex flex-col md:flex-row items-center gap-x-16">
+        <h1 className="text-[20px] text-[#646464] font-poppins">
+          ABOUT THE PROJECT
+        </h1>
+        <div className="flex flex-col md:flex-row md:items-center gap-x-16">
           <div className="md:w-3/4 ">
             <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
               Overview Of The Project <br /> And Challenges
             </h1>
-            <div className="text-[20px] 2xl:text-[24px]">
+            <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
               <p className="mb-4">
                 CZUR is a big brand in the digital world; strengthening its
                 online presence among the target audience was a great challenge
@@ -77,11 +97,11 @@ const CzurDetails = () => {
           <div className="md:w-1/4">
             <div className="mb-8">
               <h1 className="project-title text-[21px]">PROJECTS</h1>
-              <h1 className="seo-title text-[17px">SEO and Google PPC</h1>
+              <h1 className="seo-title text-[17px]">SEO</h1>
             </div>
             <div className="">
               <h1 className="project-title text-[21px]">CLIENT</h1>
-              <h1 className="czur-subtitle text-[17px">Checkups Medical Hub</h1>
+              <h1 className="czur-subtitle text-[17px]">U Nutrients</h1>
             </div>
           </div>
         </div>
