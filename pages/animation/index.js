@@ -53,7 +53,7 @@ const Animation = () => {
           <h1 className="font-extrabold text-[40px] lg:text-[110px] xl:text-[140px] 2xl:text-[173px] text-center text-[#FF640D] leading-tight">
             ANIMATION
           </h1>
-          <Link href="/webdesign/webdesigncasestudy" passHref>
+          <Link href="/animation/animationcasestudy" passHref>
             <button className=" bg-[#E4602D] mt-4 px-12 py-2">EXPLORE</button>
           </Link>
         </div>
