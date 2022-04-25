@@ -105,13 +105,13 @@ const TrvHomesDetails = () => {
           <div className="md:w-1/4">
             <div className="mb-8">
               <h1 className="project-title text-[21px]">PROJECTS</h1>
-              <h1 className="seo-title text-[17px">
+              <h1 className="seo-title text-[17px]">
                 Web designing and Development
               </h1>
             </div>
             <div className="">
               <h1 className="project-title text-[21px]">CLIENT</h1>
-              <h1 className="czur-subtitle text-[17px">TRV HOMES</h1>
+              <h1 className="czur-subtitle text-[17px]">TRV HOMES</h1>
             </div>
           </div>
         </div>

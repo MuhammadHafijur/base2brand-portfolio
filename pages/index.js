@@ -13,7 +13,6 @@ const Home = () => {
         {" "}
       </Meta>
       <div>
-        {/* <Banner></Banner> */}
         <Homepage></Homepage>
       </div>
     </>

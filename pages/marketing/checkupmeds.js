@@ -9,7 +9,7 @@ const CheckUpMeds = () => {
     <div className="bg-[#D5F8FD] md:border-l-[22px] border-[#13436B]">
       <div className="w-[92%] h-screen mx-auto">
         <div className="md:flex min-w-full justify-items-end items-center ">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 order-last md:order-none">
             <h1 className="text-[20px] sm:text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left font-extrabold text-[#022C5B]">
               Checkupmeds Medical Hubs
             </h1>

@@ -6,6 +6,7 @@ import letsConnect from "./lets-connect.png";
 import logo from "./nav-logo.png";
 import bannerBg from "./orange-paper-bg.png";
 import rotateYellow from "./rotate-yellow.png";
+import Pinterest from "./socialicons/pinterest.svg";
 
 const Homepage = () => {
   return (
@@ -42,7 +43,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="w-[89%] mx-auto">
-          <div className="absolute z-40 top-[20%] md:top-[35%]">
+          <div className="absolute z-40 top-[20%] md:top-[35%] lg:top-[25%]">
             <div className="">
               {/* <Image
                 src={heroContent}
@@ -79,10 +80,21 @@ const Homepage = () => {
           </div>
         </div>
         <div className="z-20 w-full">
-          <div className="flex absolute z-30 justify-between w-[89%] m-auto left-0 right-0 bottom-[10%]">
+          <div className="flex absolute z-30 justify-between w-[89%] m-auto left-0 right-0 bottom-[10%] lg:bottom-[0%]">
             <div className="">
               <Link href="">
                 <a>Social Icon</a>
+              </Link>
+              <Link href="https://in.pinterest.com/techbase2brand/">
+                <a>
+                  <Image
+                    className="w-2"
+                    src={Pinterest}
+                    // height={400}
+                    // width={600}
+                    alt="Picture of the banner"
+                  />
+                </a>
               </Link>
             </div>
             <div>
