@@ -9,8 +9,8 @@ const EcomCapital = () => {
       className="min-h-screen  md:border-l-[22px] border-[#2F5ED4]"
     >
       <div className="w-[92%] mx-auto">
-        <div className="md:flex h-screen min-w-full justify-items-end items-center ">
-          <div className="md:w-1/2">
+        <div className="flex flex-col md:flex-row h-screen min-w-full justify-items-end items-center ">
+          <div className="md:w-1/2 order-last md:order-none">
             <h1 className="text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left text-[#022C5B]">
               Keep with
             </h1>
