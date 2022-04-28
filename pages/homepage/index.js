@@ -3,14 +3,22 @@ import Link from "next/link";
 import React from "react";
 import heroGif from "./hola_2.gif";
 import letsConnect from "./lets-connect.png";
+import mobileBg from "./mobilebg.png";
 import logo from "./nav-logo.png";
 import bannerBg from "./orange-paper-bg.png";
 import rotateYellow from "./rotate-yellow.png";
+import Behance from "./socialicons/behance.svg";
+import Dribble from "./socialicons/dribble.svg";
+import Facebook from "./socialicons/facebook.svg";
+import Instagram from "./socialicons/instagram.svg";
+import Linkedin from "./socialicons/linkedin.svg";
 import Pinterest from "./socialicons/pinterest.svg";
+import Youtube from "./socialicons/youtube.svg";
 
 const Homepage = () => {
   return (
-    <div className="bg-[#DF5726]">
+    <div className="">
+      {/* bg-[#DF5726] */}
       <div className="">
         <div className="z-20 w-full h-full relative">
           <div className="flex items-center absolute z-30 justify-between w-[89%] m-auto left-0 right-0 top-[4%]">
@@ -32,9 +40,18 @@ const Homepage = () => {
               </Link>
             </div>
           </div>
-          <div className="w-full h-screen">
+          <div className="hidden md:block w-full h-screen">
             <Image
               src={bannerBg}
+              alt="Picture of the banner"
+              layout="responsive"
+              // height={1000}
+              // width={1000}
+            />
+          </div>
+          <div className="block md:hidden w-full h-screen">
+            <Image
+              src={mobileBg}
               alt="Picture of the banner"
               layout="responsive"
               // height={1000}
@@ -67,7 +84,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-          <div className="right-[6%] left-[50%] absolute top-[6%] lg:top-[15%] 2xl:left-[50%] 2xl:top-[20%]">
+          <div className="top-[18%] right-[6%] left-[10%] md:right-[6%] md:left-[50%] absolute md:top-[6%] lg:top-[15%] 2xl:left-[50%] 2xl:top-[20%]">
             <div className="relative z-0 w-[100%]">
               <Image
                 src={heroGif}
@@ -80,16 +97,82 @@ const Homepage = () => {
           </div>
         </div>
         <div className="z-20 w-full">
-          <div className="flex absolute z-30 justify-between w-[89%] m-auto left-0 right-0 bottom-[10%] lg:bottom-[0%]">
+          <div className="flex flex-col md:flex-row absolute z-30 justify-between w-[89%] m-auto left-0 right-0 bottom-[10%] lg:bottom-[0%]">
             <div className="">
-              <Link href="">
+              {/* <Link href="">
                 <a>Social Icon</a>
-              </Link>
+              </Link> */}
               <Link href="https://in.pinterest.com/techbase2brand/">
                 <a>
                   <Image
                     className="w-2"
                     src={Pinterest}
+                    // height={400}
+                    // width={600}
+                    alt="Picture of the banner"
+                  />
+                </a>
+              </Link>
+              <Link href="https://in.pinterest.com/techbase2brand/">
+                <a>
+                  <Image
+                    className="w-2"
+                    src={Facebook}
+                    // height={400}
+                    // width={600}
+                    alt="Picture of the banner"
+                  />
+                </a>
+              </Link>
+              <Link href="https://in.pinterest.com/techbase2brand/">
+                <a>
+                  <Image
+                    className="w-2"
+                    src={Instagram}
+                    // height={400}
+                    // width={600}
+                    alt="Picture of the banner"
+                  />
+                </a>
+              </Link>
+              <Link href="https://in.pinterest.com/techbase2brand/">
+                <a>
+                  <Image
+                    className="w-2"
+                    src={Youtube}
+                    // height={400}
+                    // width={600}
+                    alt="Picture of the banner"
+                  />
+                </a>
+              </Link>
+              <Link href="https://in.pinterest.com/techbase2brand/">
+                <a>
+                  <Image
+                    className="w-2"
+                    src={Behance}
+                    // height={400}
+                    // width={600}
+                    alt="Picture of the banner"
+                  />
+                </a>
+              </Link>
+              <Link href="https://in.pinterest.com/techbase2brand/">
+                <a>
+                  <Image
+                    className="w-2"
+                    src={Dribble}
+                    // height={400}
+                    // width={600}
+                    alt="Picture of the banner"
+                  />
+                </a>
+              </Link>
+              <Link href="https://in.pinterest.com/techbase2brand/">
+                <a>
+                  <Image
+                    className="w-2"
+                    src={Linkedin}
                     // height={400}
                     // width={600}
                     alt="Picture of the banner"

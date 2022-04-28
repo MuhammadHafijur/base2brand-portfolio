@@ -96,10 +96,10 @@ const Screen = () => {
         slidesToShow={1}
         autoplay={true}
         autoplayInterval={4000}
-        speed={3000}
+        speed={4000}
         pauseOnHover={false}
         dragging={true}
-        scrollMode={"remainder"}
+        // scrollMode={"remainder"}
         swiping={false}
         // adaptiveHeight={true}
         // animation={"zoom"}

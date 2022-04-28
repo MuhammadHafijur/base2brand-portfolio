@@ -1,5 +1,5 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-// import "@splidejs/react-splide/css";
+import "@splidejs/react-splide/css";
 // or only core styles
 // import "@splidejs/react-splide/css/core";
 // import "@splidejs/react-splide/css/sea-green";
@@ -9,7 +9,7 @@ import AumiFour from "./aumifour";
 import Trvhomes from "./trvhomes";
 import Unutrients from "./unutrients";
 
-const MarketingCaseStudy = () => {
+const WebDesignCaseStudy = () => {
   const options = {
     type: "loop",
     autoplay: true,
@@ -61,4 +61,4 @@ const MarketingCaseStudy = () => {
   );
 };
 
-export default MarketingCaseStudy;
+export default WebDesignCaseStudy;

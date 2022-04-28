@@ -36,25 +36,27 @@ const Unutrients = () => {
           </div>
         </div>
 
-        <Link href="/webdesign/unutrientsdetails" passHref>
-          <a>
-            <h1 className="text-[21px] flex items-center mt-0 sm:mt-32 md:-mt-16  lg:-mt-16 font-bold justify-center md:justify-start ">
-              OPEN CASE STUDY
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 ml-4"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </h1>
-          </a>
-        </Link>
+        <div className="absolute bottom-[20px]">
+          <Link href="/webdesign/unutrientsdetails">
+            <a>
+              <h1 className="text-[16px] md:text-[21px] flex  font-bold justify-center items-center md:justify-start ">
+                OPEN CASE STUDY
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 ml-4"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </h1>
+            </a>
+          </Link>
+        </div>
       </div>
     </div>
   );
