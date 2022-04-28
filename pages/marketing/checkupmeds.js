@@ -7,8 +7,8 @@ import "./Market.module.css";
 const CheckUpMeds = () => {
   return (
     <div className="bg-[#D5F8FD] md:border-l-[22px] border-[#13436B]">
-      <div className="w-[92%] h-screen mx-auto">
-        <div className="flex flex-col md:flex-row min-w-full justify-items-end items-center ">
+      <div className="w-[92%] flex h-screen mx-auto">
+        <div className="flex m-auto flex-col md:flex-row min-w-full justify-items-end items-center ">
           <div className="md:w-1/2 order-last md:order-none">
             <h1 className="font-nanummy text-[20px] sm:text-[40px] md:text-[50px] 2xl:text-[100px]  4k:text-[155px] text-center md:text-left font-extrabold text-[#022C5B]">
               Checkups <br /> Medical Hub
@@ -19,7 +19,7 @@ const CheckUpMeds = () => {
               quickly and at lower prices in Kenya and South Sudan.
             </p>
           </div>
-          <div className="w-[66%]  mx-auto h-[150px] md:h-auto md:w-1/2 flex justify-center">
+          <div className="w-[66%] mb-8 md:mb-0 mx-auto h-[150px] md:h-auto md:w-1/2 flex justify-center">
             <Image
               src={checkupImg}
               alt="checkupImg"
