@@ -66,46 +66,49 @@ const UnutrientsDetails = () => {
       </div>
 
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1 className="text-[20px] text-[#646464] font-poppins">
+        <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
           ABOUT THE PROJECT
         </h1>
-        <div className="flex flex-col md:flex-row items-center gap-x-16">
-          <div className="md:w-3/4 ">
+        <div className="">
+          <div className=" ">
             <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              Overview Of The Project <br /> And Challenges
+              An Overview of the Project <br /> and Challenges
             </h1>
-            <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
-              <p className="mb-4">
-                Our first step in meeting U Nutrients&apos; needs was creating a
-                site that spoke to their brand from the very beginning. We
-                worked closely with the client on the site&apos;s identity to
-                accomplish this.
-              </p>
-              <p className="mb-4">
-                During this project, we had to improve user interface (UI),
-                overall site architecture and navigation in order to facilitate
-                easier browsing and a more frictionless experience. We also had
-                to create a more user-friendly and visually appealing product
-                story with improved navigation and filtering.
-              </p>
-              <p className="mb-4">
-                Our web design and development teams collaborated to deliver a
-                great user experience (UX) of this website. As fresh as their
-                supplements, U Nutrients&apos; website now feels youthful and
-                fun.
-              </p>
-            </div>
-          </div>
-          <div className="md:w-1/4">
-            <div className="mb-8">
-              <h1 className="project-title text-[21px]">PROJECTS</h1>
-              <h1 className="seo-title text-[17px]">
-                UI and UX, Web Designing and Development
-              </h1>
-            </div>
-            <div className="">
-              <h1 className="project-title text-[21px]">CLIENT</h1>
-              <h1 className="czur-subtitle text-[17px]">U Nutrients</h1>
+            <div className="flex flex-col md:flex-row gap-x-16">
+              <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+                <p className="mb-4">
+                  Our first step in meeting U Nutrients&apos; needs was creating
+                  a site that spoke to their brand from the very beginning. We
+                  worked closely with the client on the site&apos;s identity to
+                  accomplish this.
+                </p>
+                <p className="mb-4">
+                  During this project, we had to improve user interface (UI),
+                  overall site architecture and navigation in order to
+                  facilitate easier browsing and a more frictionless experience.
+                  We also had to create a more user-friendly and visually
+                  appealing product story with improved navigation and
+                  filtering.
+                </p>
+                <p className="mb-4">
+                  Our web design and development teams collaborated to deliver a
+                  great user experience (UX) of this website. As fresh as their
+                  supplements, U Nutrients&apos; website now feels youthful and
+                  fun.
+                </p>
+              </div>
+              <div className="md:w-1/4">
+                <div className="mb-8">
+                  <h1 className="project-title text-[21px]">PROJECTS</h1>
+                  <h1 className="seo-title text-[17px]">
+                    UI and UX, Web Designing and Development
+                  </h1>
+                </div>
+                <div className="">
+                  <h1 className="project-title text-[21px]">CLIENT</h1>
+                  <h1 className="czur-subtitle text-[17px]">U Nutrients</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>

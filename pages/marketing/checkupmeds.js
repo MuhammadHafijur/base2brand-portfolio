@@ -10,10 +10,10 @@ const CheckUpMeds = () => {
       <div className="w-[92%] h-screen mx-auto">
         <div className="flex flex-col md:flex-row min-w-full justify-items-end items-center ">
           <div className="md:w-1/2 order-last md:order-none">
-            <h1 className="text-[20px] sm:text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left font-extrabold text-[#022C5B]">
-              Checkupmeds Medical Hubs
+            <h1 className="font-nanummy text-[20px] sm:text-[40px] md:text-[50px] 2xl:text-[100px]  4k:text-[155px] text-center md:text-left font-extrabold text-[#022C5B]">
+              Checkups <br /> Medical Hub
             </h1>
-            <p className="text-[14px] sm:text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
+            <p className="font-poppins text-[14px] sm:text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
               CheckupsMed provides technology-enabled medicines procurement and
               delivery service that helps patients get medicines and diagnostics
               quickly and at lower prices in Kenya and South Sudan.

@@ -53,7 +53,7 @@ const Ux = () => {
           <h1 className="font-extrabold text-[40px] md:text-[80px] lg:text-[110px] xl:text-[140px] 2xl:text-[173px] text-center text-[#0DFFB6] leading-tight">
             UX/UI
           </h1>
-          <Link href="/webdesign/webdesigncasestudy" passHref>
+          <Link href="/ux/uxuicasestudy" passHref>
             <button className=" bg-[#E4602D] text-white mt-4 px-12 py-2">
               EXPLORE
             </button>

@@ -13,9 +13,8 @@ const CocoSky = () => {
               Coco Sky
             </h1>
             <p className="text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever si
+              Cocosky liquor brand which is a Delicious, Natural, Hydrating
+              blend of Coconut water, Sweet cream, and Gin.
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">

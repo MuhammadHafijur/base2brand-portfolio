@@ -67,44 +67,49 @@ const CheckUpMedsDetails = () => {
         </div>
 
         <div className="w-[93%] mx-auto mt-12 ">
-          <h1 className="text-[20px] text-[#646464] font-poppins">
+          <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
             ABOUT THE PROJECT
           </h1>
-          <div className="flex flex-col md:flex-row items-center gap-x-16">
-            <div className="md:w-3/4 ">
+          <div className="">
+            <div className=" ">
               <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-                Overview Of The Project <br /> And Challenges
+                Overview Of The Project <br />
+                And Challenges
               </h1>
-              <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
-                <p className="mb-4">
-                  CZUR is a big brand in the digital world; strengthening its
-                  online presence among the target audience was a great
-                  challenge for Base 2 Brand. We handled the digital marketing
-                  operations of CZUR, specifically SEO.
-                </p>
-                <p className="mb-4">
-                  We manage link building, content marketing, and local search
-                  engine optimization for the brand. The CZUR&apos;s official
-                  blogs now rank on the first page of Google for almost every
-                  targeted keyword.
-                </p>
-                <p className="mb-4">
-                  Thanks to our SEO experts&apos; efforts, our client&apos;s
-                  website is receiving more traffic and generating higher ROI
-                  through our white hat SEO techniques.
-                </p>
-              </div>
-            </div>
-            <div className="md:w-1/4">
-              <div className="mb-8">
-                <h1 className="project-title text-[21px]">PROJECTS</h1>
-                <h1 className="seo-title text-[17px]">
-                  UI and UX, Web Designing and Development
-                </h1>
-              </div>
-              <div className="">
-                <h1 className="project-title text-[21px]">CLIENT</h1>
-                <h1 className="czur-subtitle text-[17px]">U Nutrients</h1>
+              <div className="flex flex-col md:flex-row gap-x-16">
+                <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+                  <p className="mb-4">
+                    The client is a medication delivery and medical test
+                    provider in Kenya. Our digital marketing campaign aimed to
+                    increase new patient acquisition, traffic to their site and
+                    paid traffic through Google PPC without spending too much.
+                  </p>
+                  <p className="mb-4">
+                    As a team, we evaluated areas where we could improve and
+                    what SEO strategies would be most effective. We started by
+                    auditing the site for major errors such as duplicate
+                    content, 404 errors, and any signs of black hat strategies
+                    that may harm their site.
+                  </p>
+                  <p className="mb-4">
+                    We did a competitor analysis to learn about the strategies
+                    competitors in the area are using and performing.
+                  </p>
+                </div>
+                <div className="md:w-1/4">
+                  <div className="mb-8">
+                    <h1 className="project-title text-[21px]">PROJECTS</h1>
+                    <h1 className="seo-title text-[17px]">
+                      SEO and Google PPC
+                    </h1>
+                  </div>
+                  <div className="">
+                    <h1 className="project-title text-[21px]">CLIENT</h1>
+                    <h1 className="czur-subtitle text-[17px]">
+                      Checkups Medical Hub
+                    </h1>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -112,18 +117,24 @@ const CheckUpMedsDetails = () => {
 
         {/* ******** */}
         <div className="w-[93%] mx-auto my-16">
+          <h1 className="czur-details-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-4">
+            Checkupmeds
+          </h1>
           <div className="flex flex-col md:flex-row items-center md:items-start">
             <div className="md:w-2/5">
-              <h1 className="czur-details-title text-[40px] lg:text-[60px] 2xl:text-[78px]">
-                Checkupmeds
-              </h1>
+              <p className="text-[24px] 2xl:text-[30px] text-[#646464] font-poppins font-semibold">
+                As a technology-enabled medication procurement and delivery
+                company, CheckupsMed helps patients get the best prices on
+                medicines and diagnostics as quickly as possible.
+              </p>
             </div>
             <div className="md:w-3/5">
               <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464] mb-8">
-                CheckupsMed provides technology-enabled medicines procurement
-                and delivery service that helps patients get medicines and
-                diagnostics quickly and at lower prices in Kenya and South
-                Sudan.
+                Base 2 Brand&apos;s SEO team runs various SEO strategies and
+                reviews each strategy every month to ensure progress. Our
+                efforts helped CheckupsMed to improve click-through rates of ads
+                and website pages, helping them achieve company growth even
+                during these hard times.
               </p>
               {/* <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464]">
                 Super Greens is a natural supplement that contains vital
@@ -137,7 +148,12 @@ const CheckUpMedsDetails = () => {
 
         <div className="w-[93%] mx-auto">
           <div className="">
-            <Image alt="Mountains" src={googleAdsImg} />
+            <Image
+              alt="Mountains"
+              // layout="raw"
+              // objectFit="cover"
+              src={googleAdsImg}
+            />
           </div>
           {/* Checkupmeds Title */}
           <div className="">

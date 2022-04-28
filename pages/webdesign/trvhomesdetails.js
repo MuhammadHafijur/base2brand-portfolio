@@ -68,50 +68,52 @@ const TrvHomesDetails = () => {
           />
         </svg>
       </div>
-      <div className="w-[93%] mx-auto mt-12 border-r-[10px] xl:border-r-[30px] border-black">
-        <h1 className="text-[20px] text-[#646464] font-poppins">
+      <div className="w-[93%] mx-auto mt-12 ">
+        <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
           ABOUT THE PROJECT
         </h1>
-        <div className="flex flex-col md:flex-row md:items-center gap-x-16">
-          <div className="md:w-3/4 ">
+        <div className="">
+          <div className=" ">
             <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              An Overview Of The Project <br /> And Challenges
+              An Overview of the Project <br /> and Challenges
             </h1>
-            <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
-              <p className="mb-4">
-                TRV Homes&apos; website was an exciting and challenging project
-                for our web development and design teams. The client wanted us
-                to create an image gallery to highlight residential projects’
-                work on the website.
-              </p>
-              <p className="mb-4">
-                Although TRV Homes provided us with images of each custom
-                designed home that they have built, it was difficult for us to
-                combine them into an outdated website. Our developers updated
-                the site with the latest plugins and technologies to create a
-                visually appealing corporate platform with stunning photo
-                galleries of client projects.
-              </p>
-              <p className="mb-4">
-                Along with a good desktop view, we also made this website mobile
-                friendly. Additionally, lead generation forms were added to all
-                important pages in order to automatically transfer qualified
-                leads to the company&apos;s email address. In the end, we
-                created a website with an excellent user experience and greater
-                navigational features.
-              </p>
-            </div>
-          </div>
-          <div className="md:w-1/4">
-            <div className="mb-8">
-              <h1 className="project-title text-[21px]">PROJECTS</h1>
-              <h1 className="seo-title text-[17px]">
-                Web designing and Development
-              </h1>
-            </div>
-            <div className="">
-              <h1 className="project-title text-[21px]">CLIENT</h1>
-              <h1 className="czur-subtitle text-[17px]">TRV HOMES</h1>
+            <div className="flex flex-col md:flex-row gap-x-16">
+              <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+                <p className="mb-4">
+                  TRV Homes&apos; website was an exciting and challenging
+                  project for our web development and design teams. The client
+                  wanted us to create an image gallery to highlight residential
+                  projects&apos; work on the website.
+                </p>
+                <p className="mb-4">
+                  Although TRV Homes provided us with images of each custom
+                  designed home that they have built, it was difficult for us to
+                  combine them into an outdated website. Our developers updated
+                  the site with the latest plugins and technologies to create a
+                  visually appealing corporate platform with stunning photo
+                  galleries of client projects.
+                </p>
+                <p className="mb-4">
+                  Along with a good desktop view, we also made this website
+                  mobile friendly. Additionally, lead generation forms were
+                  added to all important pages in order to automatically
+                  transfer qualified leads to the company&apos;s email address.
+                  In the end, we created a website with an excellent user
+                  experience and greater navigational features.
+                </p>
+              </div>
+              <div className="md:w-1/4">
+                <div className="mb-8">
+                  <h1 className="project-title text-[21px]">PROJECTS</h1>
+                  <h1 className="seo-title text-[17px]">
+                    Web designing and Development
+                  </h1>
+                </div>
+                <div className="">
+                  <h1 className="project-title text-[21px]">CLIENT</h1>
+                  <h1 className="czur-subtitle text-[17px]">TRV HOMES</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>

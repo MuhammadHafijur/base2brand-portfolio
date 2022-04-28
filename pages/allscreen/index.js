@@ -1,48 +1,28 @@
 // import WebDesign from "../WebDesign";
 // import Marketing from "../marketing/Marketing";
 // Splidejs
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+// import { Splide, SplideSlide } from "@splidejs/react-splide";
 // Default theme
 import "@splidejs/react-splide/css";
+import Carousel from "nuka-carousel";
 // // or only core styles
 // import "@splidejs/react-splide/css/core";
 // import "@splidejs/react-splide/css/sea-green";
 // // or other themes
 // import "@splidejs/react-splide/css/skyblue";
 import React from "react";
+import AwesomeSlider from "react-awesome-slider";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
+import "react-awesome-slider/dist/styles.css";
 import "swiper/css";
-import "swiper/css/autoplay";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 import Animation from "../animation";
-// import Animation from "../animation/index.js";
-// import Animation from "../animation/index.js";
 import Marketing from "../marketing";
 import Ux from "../ux";
-// import Marketing from "../Marketing";
-// import Ux from "../Ux";
 import WebDesign from "../webdesign";
+import styles from "./Allscree.module.css";
 
 const Screen = () => {
-  // const swiper = new Swiper(".swiper-container", {
-  //   effect: "coverflow",
-  //   grabCursor: true,
-  //   centeredSlides: true,
-  //   slidesPerView: "auto",
-  //   loop: true,
-  //   coverflowEffect: {
-  //     rotate: 50,
-  //     stretch: 0,
-  //     depth: 100,
-  //     modifier: 1,
-  //     slideShadows: true,
-  //   },
-  //   autoplay: {
-  //     delay: 2000,
-  //   },
-  // });
-
   const options = {
     type: "loop",
     autoplay: true,
@@ -68,9 +48,11 @@ const Screen = () => {
     // paginationDirection: "ttb",
   };
 
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
+
   return (
-    <div className="">
-      <Splide options={options} aria-label="My Favorite Images">
+    <div className={styles.splide__pagination__page}>
+      {/* <Splide options={options} aria-label="My Favorite Images">
         <SplideSlide>
           <Marketing />
         </SplideSlide>
@@ -83,7 +65,58 @@ const Screen = () => {
         <SplideSlide>
           <Animation />
         </SplideSlide>
-      </Splide>
+      </Splide> */}
+      {/* <AutoplaySlider
+        play={true}
+        cancelOnInteraction={false} // should stop playing on user interaction
+        interval={6000}
+        fillParent={true}
+      >
+        <div>
+          <Animation />
+        </div>
+        <div>
+          <Marketing />
+        </div>
+        <div>3</div>
+      </AutoplaySlider> */}
+      <Carousel
+        defaultControlsConfig={{
+          pagingDotsStyle: {
+            fill: "#FFF6E7",
+            height: "10px",
+            width: "20px",
+            borderRadius: "15px",
+            background: "#FFF6E7",
+            marginRight: "10px",
+          },
+          // nextButtonText: "hey"
+        }}
+        wrapAround={true}
+        slidesToShow={1}
+        autoplay={true}
+        autoplayInterval={4000}
+        speed={3000}
+        pauseOnHover={false}
+        dragging={true}
+        scrollMode={"remainder"}
+        swiping={false}
+        // adaptiveHeight={true}
+        // animation={"zoom"}
+      >
+        <div>
+          <Marketing />
+        </div>
+        <div>
+          <WebDesign />
+        </div>
+        <div>
+          <Ux />
+        </div>
+        <div>
+          <Animation />
+        </div>
+      </Carousel>
     </div>
   );
 };

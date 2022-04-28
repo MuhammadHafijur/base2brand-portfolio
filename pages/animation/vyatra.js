@@ -13,9 +13,9 @@ const Vyatra = () => {
               Vyatra
             </h1>
             <p className="text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever si
+              Vyatra offers virtual tours to it’s users. It allows people to
+              enjoy travelling to various holu places all around the world from
+              the comfort of their home.
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">

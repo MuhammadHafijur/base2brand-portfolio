@@ -68,49 +68,51 @@ const PrintBySusuDetails = () => {
       </div>
 
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1 className="text-[20px] text-[#646464] font-poppins">
+        <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
           ABOUT THE PROJECT
         </h1>
-        <div className="flex flex-col md:flex-row items-center gap-x-16">
-          <div className="md:w-3/4 ">
+        <div className="">
+          <div className=" ">
             <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              Overview Of The Project <br /> And Challenges
+              An Overview Of The Project <br /> And Its Challenges
             </h1>
-            <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
-              <p className="mb-4">
-                Before Collaborating with Base 2 Brand, the brand&apos;s website
-                saw a few visitors a month, and its conversion rates were
-                terrible.
-              </p>
-              <p className="mb-4">
-                The problem was even worse on mobile, where Prints By
-                Susu&apos;s conversion rate was less than half of its desktop
-                counterpart.
-              </p>
-              <p className="mb-4">
-                Base 2 Brand realized something needed to be done and analyzed
-                Prints By Susu&apos;s selling propositions, offers, and
-                policies. As a result, we created an eCommerce marketing plan
-                that promoted the brand&apos;s products.
-              </p>
-              <p className="mb-4">
-                We handled Search Engine Optimization, Social Media Marketing,
-                and Google PPC for Prints By Susu. Through Base 2 Brand&apos;s
-                eCommerce marketing strategies, the brand achieves 40% more
-                conversions.
-              </p>
-            </div>
-          </div>
-          <div className="md:w-1/4">
-            <div className="mb-8">
-              <h1 className="project-title text-[21px]">ROLE</h1>
-              <h1 className="seo-title text-[17px]">
-                E-Commerce Marketing, SEO, Social Media Marketing, Google PPC
-              </h1>
-            </div>
-            <div className="">
-              <h1 className="project-title text-[21px]">CLIENT</h1>
-              <h1 className="czur-subtitle text-[17px]">Prints By Susu</h1>
+            <div className="flex flex-col md:flex-row gap-x-16">
+              <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+                <p className="mb-4">
+                  Before Collaborating with Base 2 Brand, the brand&apos;s
+                  website saw a few visitors a month, and its conversion rates
+                  were terrible.
+                </p>
+                <p className="mb-4">
+                  The problem was even worse on mobile, where Prints By
+                  Susu&apos;s conversion rate was less than half of its desktop
+                  counterpart.
+                </p>
+                <p className="mb-4">
+                  Base 2 Brand realized something needed to be done and analyzed
+                  Prints By Susu&apos;s selling propositions, offers, and
+                  policies. As a result, we created an eCommerce marketing plan
+                  that promoted the brand&apos;s products.
+                </p>
+                <p className="mb-4">
+                  We handled Search Engine Optimization, Social Media Marketing,
+                  and Google PPC for Prints By Susu. Through Base 2 Brand&apos;s
+                  eCommerce marketing strategies, the brand achieves 40% more
+                  conversions.
+                </p>
+              </div>
+              <div className="md:w-1/4">
+                <div className="mb-8">
+                  <h1 className="project-title text-[21px]">PROJECTS</h1>
+                  <h1 className="seo-title text-[17px]">SEO and Google PPC</h1>
+                </div>
+                <div className="">
+                  <h1 className="project-title text-[21px]">CLIENT</h1>
+                  <h1 className="czur-subtitle text-[17px]">
+                    Checkups Medical Hub
+                  </h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>

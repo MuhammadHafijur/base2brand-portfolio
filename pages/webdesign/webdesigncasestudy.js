@@ -4,7 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 // import "@splidejs/react-splide/css/core";
 // import "@splidejs/react-splide/css/sea-green";
 // or other themes
-import "@splidejs/react-splide/css/skyblue";
+// import "@splidejs/react-splide/css/skyblue";
 import AumiFour from "./aumifour";
 import Trvhomes from "./trvhomes";
 import Unutrients from "./unutrients";

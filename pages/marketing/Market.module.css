@@ -59,3 +59,10 @@
   opacity: 0.75;
   color: black;
 }
+
+/* Customized Dots */
+.splide__pagination__page {
+  height: 20px !important;
+  margin: 7px 13px !important;
+  background: red;
+}

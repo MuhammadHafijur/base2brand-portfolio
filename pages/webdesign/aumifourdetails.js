@@ -63,45 +63,49 @@ const AumiFourDetails = () => {
         </svg>
       </div>
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1>ABOUT THE PROJECT</h1>
-        <div className="flex flex-col md:flex-row items-center gap-x-16">
-          <div className="md:w-3/4 ">
+        <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
+          ABOUT THE PROJECT
+        </h1>
+        <div className="">
+          <div className=" ">
             <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              Overview Of The Project <br /> And Challenges
+              An Overview of the Project <br /> and Challenges
             </h1>
-            <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
-              <p className="mb-4">
-                Aumi4 wanted to redesign its online store to be an e-commerce
-                platform that incorporated all the features of a regular apparel
-                store with the capability of selling jewelry products as well.
-                Our challenge was to create a multi-brand environment that
-                integrated all the brands in a reliable and user-friendly
-                manner.
-              </p>
-              <p className="mb-4">
-                With the help of Shopify, we have built an online boutique with
-                stylish and accessible clothing and jewelry products (item
-                catalog, payment/delivery options, etc.).
-              </p>
-              <p className="mb-4">
-                Before ending the project, our Shopify developers ran multiple
-                performance and security checks on the store to ensure the
-                user-friendly and secure functionality of the website. Aumi4
-                experiences significant traffic of buyers in all of its
-                categories of fashion products.
-              </p>
-            </div>
-          </div>
-          <div className="md:w-1/4">
-            <div className="mb-8">
-              <h1 className="project-title text-[21px]">PROJECTS</h1>
-              <h1 className="seo-title text-[17px]">
-                Web designing and Development
-              </h1>
-            </div>
-            <div className="">
-              <h1 className="project-title text-[21px]">CLIENT</h1>
-              <h1 className="czur-subtitle text-[17px]">Aumi4</h1>
+            <div className="flex flex-col md:flex-row gap-x-16">
+              <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+                <p className="mb-4">
+                  Aumi4 wanted to redesign its online store to be an e-commerce
+                  platform that incorporated all the features of a regular
+                  apparel store with the capability of selling jewelry products
+                  as well. Our challenge was to create a multi-brand environment
+                  that integrated all the brands in a reliable and user-friendly
+                  manner.
+                </p>
+                <p className="mb-4">
+                  With the help of Shopify, we have built an online boutique
+                  with stylish and accessible clothing and jewelry products
+                  (item catalog, payment/delivery options, etc.).
+                </p>
+                <p className="mb-4">
+                  Before ending the project, our Shopify developers ran multiple
+                  performance and security checks on the store to ensure the
+                  user-friendly and secure functionality of the website. Aumi4
+                  experiences significant traffic of buyers in all of its
+                  categories of fashion products.
+                </p>
+              </div>
+              <div className="md:w-1/4">
+                <div className="mb-8">
+                  <h1 className="project-title text-[21px]">PROJECTS</h1>
+                  <h1 className="seo-title text-[17px]">
+                    Web designing and Development
+                  </h1>
+                </div>
+                <div className="">
+                  <h1 className="project-title text-[21px]">CLIENT</h1>
+                  <h1 className="czur-subtitle text-[17px]">Aumi4</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>

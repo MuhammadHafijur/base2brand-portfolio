@@ -16,8 +16,9 @@ const Mozaiku = () => {
               Mozaiku & <br /> Notteluna
             </h1>
             <p className="text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
-              Lorem Ipsum is simply dummy text of the printing and typesetting.
-              Lorem Ipsum has been the industry&apos;s standard dummy text ever.
+              Mozaiko and Notteluna are the jewelry brands by Aumi 4 that sell
+              Gold and Silver jewelry inspired by apanese Designs that have
+              timeless appeal and can be worn during all occasions
             </p>
           </div>
           <div className="md:w-1/2 ">

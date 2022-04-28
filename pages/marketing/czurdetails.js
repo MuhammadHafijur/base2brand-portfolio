@@ -66,42 +66,45 @@ const CzurDetails = () => {
       </div>
 
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1 className="text-[20px] text-[#646464] font-poppins">
+        <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
           ABOUT THE PROJECT
         </h1>
-        <div className="flex flex-col md:flex-row md:items-center gap-x-16">
-          <div className="md:w-3/4 ">
+        <div className="">
+          <div className=" ">
             <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              Overview Of The Project <br /> And Challenges
+              Overview Of The Project <br />
+              And Challenges
             </h1>
-            <div className="text-[20px] text-[#646464] 2xl:text-[24px]">
-              <p className="mb-4">
-                CZUR is a big brand in the digital world; strengthening its
-                online presence among the target audience was a great challenge
-                for Base 2 Brand. We handled the digital marketing operations of
-                CZUR, specifically SEO.
-              </p>
-              <p className="mb-4">
-                We manage link building, content marketing, and local search
-                engine optimization for the brand. The CZUR&apos;s official
-                blogs now rank on the first page of Google for almost every
-                targeted keyword.
-              </p>
-              <p className="mb-4">
-                Thanks to our SEO experts&apos; efforts, our client&apos;s
-                website is receiving more traffic and generating higher ROI
-                through our white hat SEO techniques.
-              </p>
-            </div>
-          </div>
-          <div className="md:w-1/4">
-            <div className="mb-8">
-              <h1 className="project-title text-[21px]">PROJECTS</h1>
-              <h1 className="seo-title text-[17px]">SEO</h1>
-            </div>
-            <div className="">
-              <h1 className="project-title text-[21px]">CLIENT</h1>
-              <h1 className="czur-subtitle text-[17px]">U Nutrients</h1>
+            <div className="flex flex-col md:flex-row gap-x-16">
+              <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+                <p className="mb-4">
+                  CZUR is a big brand in the digital world; strengthening its
+                  online presence among the target audience was a great
+                  challenge for Base 2 Brand. We handled the digital marketing
+                  operations of CZUR, specifically SEO.
+                </p>
+                <p className="mb-4">
+                  We manage link building, content marketing, and local search
+                  engine optimization for the brand. The CZUR&apos;s official
+                  blogs now rank on the first page of Google for almost every
+                  targeted keyword.
+                </p>
+                <p className="mb-4">
+                  Thanks to our SEO experts&apos; efforts, our client&apos;s
+                  website is receiving more traffic and generating higher ROI
+                  through our white hat SEO techniques.
+                </p>
+              </div>
+              <div className="md:w-1/4">
+                <div className="mb-8">
+                  <h1 className="project-title text-[21px]">PROJECTS</h1>
+                  <h1 className="seo-title text-[17px]">SEO</h1>
+                </div>
+                <div className="">
+                  <h1 className="project-title text-[21px]">CLIENT</h1>
+                  <h1 className="czur-subtitle text-[17px]">CZUR</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>

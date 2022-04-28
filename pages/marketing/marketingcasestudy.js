@@ -9,7 +9,6 @@ import CheckUpMeds from "./checkupmeds.js";
 import Czur from "./czur";
 import Insights from "./insights.js";
 import PrintBySusu from "./printbysusu.js";
-
 const MarketingCaseStudy = () => {
   const options = {
     type: "loop",
@@ -37,7 +36,7 @@ const MarketingCaseStudy = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <Splide
         aria-label="My Favorite Images"
         // renderControls={() => (

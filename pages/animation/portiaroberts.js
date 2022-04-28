@@ -13,9 +13,8 @@ const PortiaRoberts = () => {
               Portia roberts
             </h1>
             <p className="text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever si
+              Portia Roberts provides a professional Christian dating &
+              relationship service to its clients in the UK and beyond.
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">

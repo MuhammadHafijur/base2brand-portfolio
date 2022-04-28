@@ -151,3 +151,29 @@ body {
     transform: translateY(10%);
   }
 }
+
+.splide__pagination__page {
+  /* background: red !important; */
+  background: #ccc;
+  border: 0;
+  border-radius: 25px !important;
+  display: inline-block;
+  height: 20px !important;
+  margin: 7px 13px !important;
+  opacity: 0.7;
+  padding: 0;
+  position: relative;
+  transition: transform 0.2s linear;
+  width: 8px;
+}
+.splide__pagination__page:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  background: #fe3448 !important;
+  /* animation: leftRight 1s infinite !important; */
+}
+
+.splide__pagination__page.is-active {
+  background: #fe3448 !important;
+  transform: scale(1) !important;
+}
