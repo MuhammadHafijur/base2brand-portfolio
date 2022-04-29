@@ -177,3 +177,8 @@ body {
   background: #fe3448 !important;
   transform: scale(1) !important;
 }
+
+/* MAP */
+.map {
+  filter: grayscale(1), contrast(1.2), opacity(0.4);
+}
