@@ -84,7 +84,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-          <div className="top-[18%] right-[6%] left-[10%] md:right-[6%] md:left-[50%] absolute md:top-[6%] lg:top-[15%] 2xl:left-[50%] 2xl:top-[20%]">
+          <div className="top-[12%] right-[6%] left-[10%] md:right-[6%] md:left-[50%] absolute md:top-[6%] lg:top-[15%] 2xl:left-[50%] 2xl:top-[20%]">
             <div className="relative z-0 w-[100%]">
               <Image
                 src={heroGif}
