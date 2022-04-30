@@ -28,26 +28,6 @@ body {
 }
 
 /* Animation */
-.imageAnimation {
-  animation: upDown 4s infinite;
-  /* animation-delay: 1s; */
-  /* animation-timing-function: ease-in-out; */
-  animation-timing-function: linear;
-}
-
-@keyframes upDown {
-  0%,
-  100% {
-    top: 0;
-  }
-  50% {
-    top: 100px;
-  }
-
-  /* 0% {
-    top: 0px;
-  } */
-}
 
 .project-title {
   font-family: "Poppins", sans-serif;

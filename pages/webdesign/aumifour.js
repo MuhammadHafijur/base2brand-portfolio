@@ -10,13 +10,13 @@ const AumiFour = () => {
       style={{ background: "#FFE6D1" }}
       className="min-h-screen  md:border-l-[22px] border-[#612F05]"
     >
-      <div className="w-[92%] translate-y-[10%] md:translate-y-0 mx-auto">
-        <div className="flex flex-col md:flex-row h-screen min-w-full justify-items-end items-center ">
+      <div className="w-[92%]  mx-auto">
+        <div className="flex translate-y-[10%] md:translate-y-0 flex-col md:flex-row h-screen min-w-full justify-items-end items-center ">
           <div className="md:w-1/2 order-last md:order-none">
-            <h1 className="text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left text-[#022C5B]">
+            <h1 className="font-nanummy text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left text-[#022C5B]">
               Aumi4
             </h1>
-            <p className="text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
+            <p className="font-poppins text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
               Aumi4 is an online store of trending fashion products. Its
               collection includes elegant jewelry, stylish hand bags, sweaters
               and embroidered shirts for women.
@@ -35,6 +35,7 @@ const AumiFour = () => {
             />
           </div>
         </div>
+
         <div className="absolute bottom-[20px]">
           <Link href="/webdesign/aumifourdetails">
             <a>

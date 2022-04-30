@@ -63,16 +63,17 @@ const AumiFourDetails = () => {
         </svg>
       </div>
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
+        <h1 className="text-[20px] text-center md:text-left text-[#646464] font-poppins font-medium">
           ABOUT THE PROJECT
         </h1>
         <div className="">
           <div className=" ">
-            <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              An Overview of the Project <br /> and Challenges
+            <h1 className="overview-title mt-4 md:mt-0 text-[24px] text-center md:text-left md:text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
+              Overview Of The Project <br />
+              And Challenges
             </h1>
-            <div className="flex flex-col md:flex-row gap-x-16">
-              <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+            <div className="flex order-last flex-col md:flex-row gap-x-16">
+              <div className="md:w-3/4 text-[16px] lg:text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[24px] md:leading-[30px] text-center md:text-left lg:leading-[43px]">
                 <p className="mb-4">
                   Aumi4 wanted to redesign its online store to be an e-commerce
                   platform that incorporated all the features of a regular
@@ -94,16 +95,22 @@ const AumiFourDetails = () => {
                   categories of fashion products.
                 </p>
               </div>
-              <div className="md:w-1/4">
-                <div className="mb-8">
-                  <h1 className="project-title text-[21px]">PROJECTS</h1>
-                  <h1 className="seo-title text-[17px]">
+              <div className="md:w-1/4 order-first md:order-none flex gap-x-8 justify-between md:justify-start md:flex-col text-center md:text-left">
+                <div className="w-1/2 md:w-full mb-8">
+                  <h1 className="project-title text-[16px] md:text-[21px]">
+                    PROJECTS
+                  </h1>
+                  <h1 className="seo-title text-[13px] md:text-[17px]">
                     Web designing and Development
                   </h1>
                 </div>
-                <div className="">
-                  <h1 className="project-title text-[21px]">CLIENT</h1>
-                  <h1 className="czur-subtitle text-[17px]">Aumi4</h1>
+                <div className="w-1/2 md:w-full">
+                  <h1 className="project-title text-[16px] md:text-[21px]">
+                    CLIENT
+                  </h1>
+                  <h1 className="czur-subtitle text-[13px] md:text-[17px]">
+                    TRV HOMES
+                  </h1>
                 </div>
               </div>
             </div>
@@ -112,7 +119,7 @@ const AumiFourDetails = () => {
       </div>
       {/* ******** */}
       <div className="w-[93%] mx-auto my-16">
-        <div className="flex flex-col md:flex-row items-center md:items-start">
+        <div className="flex flex-col text-center md:text-left md:flex-row items-center md:items-start">
           <div className="md:w-2/5">
             <h1 className="czur-details-title text-[40px] lg:text-[60px] 2xl:text-[78px]">
               Bettle Bags
@@ -251,7 +258,7 @@ const AumiFourDetails = () => {
       </div>
 
       <div className="bg-white ">
-        <h1 className="text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
+        <h1 className="text-[20px] md:text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
           View Next Project
         </h1>
         <div className="">

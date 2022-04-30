@@ -10,13 +10,13 @@ const Unutrients = () => {
       style={{ background: "#DEFFDA" }}
       className="min-h-screen  md:border-l-[22px] border-[#0D5705]"
     >
-      <div className="w-[92%]  mx-auto">
+      <div className="w-[92%] mx-auto">
         <div className="flex translate-y-[10%] md:translate-y-0 flex-col md:flex-row h-screen min-w-full justify-items-end items-center ">
           <div className="md:w-1/2 order-last md:order-none">
-            <h1 className="text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left text-[#022C5B]">
+            <h1 className="font-nanummy text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left text-[#1B7311]">
               Unutrients
             </h1>
-            <p className="text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
+            <p className="font-poppins text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
               U Nutrients is a California-based supplement manufacturer and
               seller. Its plant-based Super Green supplement supports a healthy
               immune system.

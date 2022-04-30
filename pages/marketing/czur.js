@@ -9,10 +9,10 @@ const Czur = () => {
       <div className="w-[92%] translate-y-[10%] md:translate-y-0 h-screen mx-auto">
         <div className="flex flex-col md:flex-row min-w-full justify-items-end items-center ">
           <div className="md:w-1/2 order-last md:order-none">
-            <h1 className="text-[20px] sm:text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left font-extrabold text-[#2D38AC]">
+            <h1 className="font-nanummy text-[20px] sm:text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left font-extrabold text-[#2D38AC]">
               CZUR
             </h1>
-            <p className="text-[14px] sm:text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
+            <p className="font-poppins text-[14px] sm:text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
               CZUR is committed to designing, developing, and selling portable
               document scanners to reshape the modern workplace environment. It
               integrates software, technologies, and artificial intelligence
