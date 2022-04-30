@@ -11,7 +11,7 @@ const UnutrientsDetails = () => {
   return (
     <div className="#F7F7F7">
       {/* Banner */}
-      <div className="static">
+      <div className="static pt-10 md:pt-0">
         <Image
           alt="Mountains"
           src={unutrientsBanner}
@@ -21,7 +21,7 @@ const UnutrientsDetails = () => {
       </div>
 
       <div className="w-full absolute top-0 flex justify-center items-center mt-2 md:mt-4">
-        <div className="w-[93%] text-[12px] lg:text-[20px] font-poppins flex items-center text-white">
+        <div className="w-[93%] text-[12px] lg:text-[20px] font-poppins flex items-center text-black md:text-white font-semibold">
           <Link href="/webdesign/webdesigncasestudy">
             <a>
               <h1 className="flex items-center">
@@ -66,16 +66,17 @@ const UnutrientsDetails = () => {
       </div>
 
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
+        <h1 className="text-[20px] text-center md:text-left text-[#646464] font-poppins font-medium">
           ABOUT THE PROJECT
         </h1>
         <div className="">
           <div className=" ">
-            <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              An Overview of the Project <br /> and Challenges
+            <h1 className="overview-title mt-4 md:mt-0 text-[24px] text-center md:text-left md:text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
+              Overview Of The Project <br />
+              And Challenges
             </h1>
-            <div className="flex flex-col md:flex-row gap-x-16">
-              <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+            <div className="flex order-last flex-col md:flex-row gap-x-16">
+              <div className="md:w-3/4 text-[16px] lg:text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[24px] md:leading-[30px] text-center md:text-left lg:leading-[43px]">
                 <p className="mb-4">
                   Our first step in meeting U Nutrients&apos; needs was creating
                   a site that spoke to their brand from the very beginning. We
@@ -97,16 +98,22 @@ const UnutrientsDetails = () => {
                   fun.
                 </p>
               </div>
-              <div className="md:w-1/4">
+              <div className="md:w-1/4 order-first md:order-none flex gap-x-8 justify-between md:justify-start md:flex-col text-center md:text-left">
                 <div className="mb-8">
-                  <h1 className="project-title text-[21px]">PROJECTS</h1>
-                  <h1 className="seo-title text-[17px]">
-                    UI and UX, Web Designing and Development
+                  <h1 className="project-title text-[16px] md:text-[21px]">
+                    PROJECTS
+                  </h1>
+                  <h1 className="seo-title text-[13px] md:text-[17px]">
+                    SEO and Google PPC
                   </h1>
                 </div>
                 <div className="">
-                  <h1 className="project-title text-[21px]">CLIENT</h1>
-                  <h1 className="czur-subtitle text-[17px]">U Nutrients</h1>
+                  <h1 className="project-title text-[16px] md:text-[21px]">
+                    CLIENT
+                  </h1>
+                  <h1 className="czur-subtitle text-[13px] md:text-[17px]">
+                    Checkups Medical Hub
+                  </h1>
                 </div>
               </div>
             </div>
@@ -115,20 +122,20 @@ const UnutrientsDetails = () => {
       </div>
 
       {/* ******** */}
-      <div className="w-[93%] mx-auto my-16">
+      <div className="w-[93%] mx-auto my-16 text-center md:text-left">
         <div className="flex flex-col md:flex-row items-center md:items-start">
           <div className="md:w-2/5">
-            <h1 className="czur-details-title text-[40px] lg:text-[60px] 2xl:text-[78px]">
+            <h1 className="czur-details-title text-[30px] md:text-[40px] lg:text-[60px] 2xl:text-[78px] mb-4 leading-[40px] lg:leading-[100px]">
               Unutrients
             </h1>
           </div>
-          <div className="md:w-3/5">
-            <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464] mb-8">
+          <div className="md:w-3/5 mt-8 md:mt-0">
+            <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464] mb-8 leading-[30px] lg:leading-[43px]">
               U Nutrients manufactures and sells plant-based and vegan-friendly
               supplements. Its Super Greens supplement is made under strict
               regulations of California.
             </p>
-            <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464]">
+            <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464] mb-8 leading-[30px] lg:leading-[43px]">
               Super Greens is a natural supplement that contains vital vitamins,
               minerals, probiotics, and nutrient-dense superfoods. It prevents
               chronic dehydration, inflammation and improves the immune
@@ -187,7 +194,7 @@ const UnutrientsDetails = () => {
       </div>
       {/* Plants */}
       <div className="">
-        <h1 className="text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
+        <h1 className="text-[20px] md:text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
           View Next Project
         </h1>
         <div className=" ">

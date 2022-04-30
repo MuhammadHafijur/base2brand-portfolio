@@ -13,7 +13,7 @@ const CheckUpMedsDetails = () => {
       <div className=" ">
         {/* Checkupmeds Cards */}
         {/* Banner */}
-        <div className="static">
+        <div className="static pt-10 md:pt-0">
           <Image
             alt="Mountains"
             src={checkUpMedsCard}
@@ -67,17 +67,17 @@ const CheckUpMedsDetails = () => {
         </div>
 
         <div className="w-[93%] mx-auto mt-12 ">
-          <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
+          <h1 className="text-[20px] text-center md:text-left text-[#646464] font-poppins font-medium">
             ABOUT THE PROJECT
           </h1>
           <div className="">
             <div className=" ">
-              <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
+              <h1 className="overview-title mt-4 md:mt-0 text-[24px] text-center md:text-left md:text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
                 Overview Of The Project <br />
                 And Challenges
               </h1>
-              <div className="flex flex-col md:flex-row gap-x-16">
-                <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+              <div className="flex order-last flex-col md:flex-row gap-x-16">
+                <div className="md:w-3/4 text-[16px] lg:text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[24px] md:leading-[30px] text-center md:text-left lg:leading-[43px]">
                   <p className="mb-4">
                     The client is a medication delivery and medical test
                     provider in Kenya. Our digital marketing campaign aimed to
@@ -96,16 +96,20 @@ const CheckUpMedsDetails = () => {
                     competitors in the area are using and performing.
                   </p>
                 </div>
-                <div className="md:w-1/4">
+                <div className="md:w-1/4 order-first md:order-none flex gap-x-8 justify-between md:justify-start md:flex-col text-center md:text-left">
                   <div className="mb-8">
-                    <h1 className="project-title text-[21px]">PROJECTS</h1>
-                    <h1 className="seo-title text-[17px]">
+                    <h1 className="project-title text-[16px] md:text-[21px]">
+                      PROJECTS
+                    </h1>
+                    <h1 className="seo-title text-[13px] md:text-[17px]">
                       SEO and Google PPC
                     </h1>
                   </div>
                   <div className="">
-                    <h1 className="project-title text-[21px]">CLIENT</h1>
-                    <h1 className="czur-subtitle text-[17px]">
+                    <h1 className="project-title text-[16px] md:text-[21px]">
+                      CLIENT
+                    </h1>
+                    <h1 className="czur-subtitle text-[13px] md:text-[17px]">
                       Checkups Medical Hub
                     </h1>
                   </div>
@@ -116,32 +120,26 @@ const CheckUpMedsDetails = () => {
         </div>
 
         {/* ******** */}
-        <div className="w-[93%] mx-auto my-16">
-          <h1 className="czur-details-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-4">
+        <div className="w-[93%] mx-auto my-16 text-center md:text-left">
+          <h1 className="czur-details-title text-[30px] md:text-[40px] lg:text-[60px] 2xl:text-[78px] mb-4 leading-[40px] lg:leading-[100px]">
             Checkupmeds
           </h1>
           <div className="flex flex-col md:flex-row items-center md:items-start">
             <div className="md:w-2/5">
-              <p className="text-[24px] 2xl:text-[30px] text-[#646464] font-poppins font-semibold">
+              <p className="text-[18px] md:text-[24px] 2xl:text-[30px] text-[#646464] font-poppins font-medium md:font-semibold">
                 As a technology-enabled medication procurement and delivery
                 company, CheckupsMed helps patients get the best prices on
                 medicines and diagnostics as quickly as possible.
               </p>
             </div>
-            <div className="md:w-3/5">
-              <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464] mb-8">
+            <div className="md:w-3/5 mt-8 md:mt-0">
+              <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464] mb-8 leading-[30px] lg:leading-[43px]">
                 Base 2 Brand&apos;s SEO team runs various SEO strategies and
                 reviews each strategy every month to ensure progress. Our
                 efforts helped CheckupsMed to improve click-through rates of ads
                 and website pages, helping them achieve company growth even
                 during these hard times.
               </p>
-              {/* <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464]">
-                Super Greens is a natural supplement that contains vital
-                vitamins, minerals, probiotics, and nutrient-dense superfoods.
-                It prevents chronic dehydration, inflammation and improves the
-                immune system&apos;s functionality.
-              </p> */}
             </div>
           </div>
         </div>
@@ -164,7 +162,7 @@ const CheckUpMedsDetails = () => {
           </div>
         </div>
         <div className="">
-          <h1 className="text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
+          <h1 className="text-[25px] md:text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
             View Next Project
           </h1>
           <div className=" ">

@@ -13,7 +13,7 @@ const PrintBySusuDetails = () => {
   return (
     <div className="#E5E5E5">
       {/* Banner */}
-      <div className="static">
+      <div className="static pt-10 md:pt-0">
         <Image
           alt="Mountains"
           src={printBanner}
@@ -23,8 +23,8 @@ const PrintBySusuDetails = () => {
       </div>
 
       <div className="w-full absolute top-0 flex justify-center items-center mt-2 md:mt-4">
-        <div className="w-[93%] text-[12px] lg:text-[20px] font-poppins flex items-center text-white">
-          <Link href="/webdesign/webdesigncasestudy">
+        <div className="w-[93%] font-semibold font-poppins text-[12px] lg:text-[20px] font-poppins flex items-center text-black">
+          <Link href="/marketing/marketingcasestudy">
             <a>
               <h1 className="flex items-center">
                 <svg
@@ -68,16 +68,17 @@ const PrintBySusuDetails = () => {
       </div>
 
       <div className="w-[93%] mx-auto mt-12 ">
-        <h1 className="text-[20px] text-[#646464] font-poppins font-medium">
+        <h1 className="text-[20px] text-center md:text-left text-[#646464] font-poppins font-medium">
           ABOUT THE PROJECT
         </h1>
         <div className="">
           <div className=" ">
-            <h1 className="overview-title text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
-              An Overview Of The Project <br /> And Its Challenges
+            <h1 className="overview-title mt-4 md:mt-0 text-[24px] text-center md:text-left md:text-[40px] lg:text-[60px] 2xl:text-[78px] mb-8">
+              Overview Of The Project <br />
+              And Challenges
             </h1>
-            <div className="flex flex-col md:flex-row gap-x-16">
-              <div className="md:w-3/4 text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[43px]">
+            <div className="flex order-last flex-col md:flex-row gap-x-16">
+              <div className="md:w-3/4 text-[16px] lg:text-[20px] text-[#646464] 2xl:text-[24px] font-poppins font-medium leading-[24px] md:leading-[30px] text-center md:text-left lg:leading-[43px]">
                 <p className="mb-4">
                   Before Collaborating with Base 2 Brand, the brand&apos;s
                   website saw a few visitors a month, and its conversion rates
@@ -101,15 +102,22 @@ const PrintBySusuDetails = () => {
                   conversions.
                 </p>
               </div>
-              <div className="md:w-1/4">
-                <div className="mb-8">
-                  <h1 className="project-title text-[21px]">PROJECTS</h1>
-                  <h1 className="seo-title text-[17px]">SEO and Google PPC</h1>
+              <div className="md:w-1/4 order-first md:order-none flex gap-x-8 justify-center md:justify-start md:flex-col text-center md:text-left">
+                <div className="w-1/2 md:w-full mb-8">
+                  <h1 className="project-title text-[16px] md:text-[21px]">
+                    ROLE
+                  </h1>
+                  <h1 className="seo-title text-[13px] md:text-[17px]">
+                    E-Commerce Marketing, SEO, Social Media Marketing, Google
+                    PPC
+                  </h1>
                 </div>
-                <div className="">
-                  <h1 className="project-title text-[21px]">CLIENT</h1>
-                  <h1 className="czur-subtitle text-[17px]">
-                    Checkups Medical Hub
+                <div className="w-1/2 md:w-full">
+                  <h1 className="project-title text-[16px] md:text-[21px]">
+                    CLIENT
+                  </h1>
+                  <h1 className="czur-subtitle text-[13px] md:text-[17px]">
+                    Prints By Susu
                   </h1>
                 </div>
               </div>
@@ -119,20 +127,20 @@ const PrintBySusuDetails = () => {
       </div>
 
       {/* ******** */}
-      <div className="w-[93%] mx-auto my-16">
+      <div className="w-[93%] mx-auto my-16 text-center md:text-left">
         <div className="flex flex-col md:flex-row items-center md:items-start">
           <div className="md:w-2/5">
-            <h1 className="czur-details-title text-[40px] lg:text-[60px] 2xl:text-[78px]">
+            <h1 className="czur-details-title text-[30px] md:text-[40px] lg:text-[60px] 2xl:text-[78px] mb-4 leading-[40px] lg:leading-[100px]">
               About Prints <br /> By Susu
             </h1>
           </div>
-          <div className="md:w-3/5">
-            <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464] mb-8">
-              The brand helps its customers find their fashion needs. It
-              encourages them to browse the store thoroughly and take their
-              time. Winter and autumn collections from Prints By Susu have
-              everything you need in terms of fashion. It sells leggings,
-              T-shirts, sweatshirts, hoodies, and jeans pants most frequently.
+          <div className="md:w-3/5 mt-8 md:mt-0">
+            <p className="czur-details-para text-[16px] lg:text-[20px] 2xl:text-[24px] text-[#646464] mb-8 leading-[30px] lg:leading-[43px]">
+              Base 2 Brand&apos;s SEO team runs various SEO strategies and
+              reviews each strategy every month to ensure progress. Our efforts
+              helped CheckupsMed to improve click-through rates of ads and
+              website pages, helping them achieve company growth even during
+              these hard times.
             </p>
           </div>
         </div>
@@ -213,7 +221,7 @@ const PrintBySusuDetails = () => {
       </div>
       {/* Plants */}
       <div className="">
-        <h1 className="text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
+        <h1 className="text-[20px] md:text-[45px] text-[#253E5B] mb-12 font-bold text-center view-next-title">
           View Next Project
         </h1>
         <div className=" ">

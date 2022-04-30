@@ -32,7 +32,7 @@ const PrintBySusu = () => {
           </div>
         </div>
         <div className="absolute bottom-[20px]">
-          <Link href="/marketing/checkupmedsdetails">
+          <Link href="/marketing/printbysusudetails">
             <a>
               <h1 className="text-[16px] md:text-[21px] flex  font-bold justify-center items-center md:justify-start ">
                 OPEN CASE STUDY
