@@ -6,9 +6,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 // or other themes
 import "@splidejs/react-splide/css/skyblue";
 import React from "react";
-import EcomCapital from "./ecomcapital.js";
+// import EcomCapital from "./ecomcapital.js";
 import KeepWith from "./keepwith.js";
 import Mozaiku from "./mozaiku.js";
+import Unutrients from "./unutrients.js";
 
 const UxUiCaseStudy = () => {
   const options = {
@@ -23,9 +24,9 @@ const UxUiCaseStudy = () => {
     pauseOnHover: false,
     pauseOnFocus: false,
     rewind: true,
-    rewindSpeed: 2000,
-    speed: 2000,
-    interval: 2000,
+    rewindSpeed: 8000,
+    speed: 4000,
+    interval: 8000,
     // width : 800,
     // gap   : '1rem',
     arrows: false,
@@ -55,7 +56,7 @@ const UxUiCaseStudy = () => {
           <KeepWith />
         </SplideSlide>
         <SplideSlide>
-          <EcomCapital />
+          <Unutrients />
         </SplideSlide>
       </Splide>
     </div>

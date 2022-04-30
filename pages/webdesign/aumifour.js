@@ -10,7 +10,7 @@ const AumiFour = () => {
       style={{ background: "#FFE6D1" }}
       className="min-h-screen  md:border-l-[22px] border-[#612F05]"
     >
-      <div className="w-[92%] mx-auto">
+      <div className="w-[92%] translate-y-[10%] md:translate-y-0 mx-auto">
         <div className="flex flex-col md:flex-row h-screen min-w-full justify-items-end items-center ">
           <div className="md:w-1/2 order-last md:order-none">
             <h1 className="text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left text-[#022C5B]">

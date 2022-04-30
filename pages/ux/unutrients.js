@@ -1,33 +1,33 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import trvHomeImg from "./trvhomeImg.png";
-import styles from "./Web.module.css";
+import unutrientsImg from "./unutrientsImg.png";
+// import styles from "./Web.module.css";
 
-const Trvhomes = () => {
+const Unutrients = () => {
   return (
     <div
-      style={{ background: "#C8E6FF" }}
-      className="min-h-screen  md:border-l-[22px] border-[#13436B]"
+      style={{ background: "#DEFFDA" }}
+      className="min-h-screen  md:border-l-[22px] border-[#0D5705]"
     >
-      <div className="w-[92%] translate-y-[10%] md:translate-y-0 mx-auto">
-        <div className="flex flex-col md:flex-row h-screen min-w-full justify-items-end items-center ">
+      <div className="w-[92%]  mx-auto">
+        <div className="flex translate-y-[10%] md:translate-y-0 flex-col md:flex-row h-screen min-w-full justify-items-end items-center ">
           <div className="md:w-1/2 order-last md:order-none">
             <h1 className="text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left text-[#022C5B]">
-              TRV Homes
+              Unutrients
             </h1>
             <p className="text-[16px] md:text-[20px] lg:text-[24px] text-center md:text-left text-black">
-              TRV Homes is a luxury custom home builder providing advanced home
-              design services to clients. It also builds multiple dwellings on
-              Adelaide&apos;s most sought-after blocks of land.
+              U Nutrients is a California-based supplement manufacturer and
+              seller. Its plant-based Super Green supplement supports a healthy
+              immune system.
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">
             <Image
-              src={trvHomeImg}
+              src={unutrientsImg}
               alt="Picture of the author"
               // className={styles.imageAnimation}
-              className={`${styles.imageAnimation} ${"w-[100%]"}`}
+              className={`${"imageAnimation"} ${"w-[100%]"}`}
               // layout="fill"
               objectFit="contain"
               // width={1}
@@ -35,8 +35,9 @@ const Trvhomes = () => {
             />
           </div>
         </div>
+
         <div className="absolute bottom-[20px]">
-          <Link href="/webdesign/trvhomesdetails">
+          <Link href="/webdesign/unutrientsdetails">
             <a>
               <h1 className="text-[16px] md:text-[21px] flex  font-bold justify-center items-center md:justify-start ">
                 OPEN CASE STUDY
@@ -61,4 +62,4 @@ const Trvhomes = () => {
   );
 };
 
-export default Trvhomes;
+export default Unutrients;

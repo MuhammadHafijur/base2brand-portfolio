@@ -6,7 +6,7 @@ import insightImg from "./insight.png";
 const Insights = () => {
   return (
     <div className="bg-[#97EFED] md:border-l-[22px] border-[#13436B]">
-      <div className="w-[92%] h-screen mx-auto">
+      <div className="w-[92%] translate-y-[10%] md:translate-y-0 h-screen mx-auto">
         <div className="flex flex-col md:flex-row min-w-full justify-items-end items-center ">
           <div className="md:w-1/2 order-last md:order-none">
             <h1 className="text-[20px] sm:text-[40px] md:text-[50px] 2xl:text-[155px] text-center md:text-left font-extrabold text-[#DE2427]">
